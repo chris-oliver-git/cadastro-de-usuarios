@@ -1,27 +1,21 @@
 import './style.css'
 import Excluir from '../../assets/excluir.png'
+import api from '../../services/api'
+import { useEffect } from 'react'
+
 
 function Home() {
-  const users = [
-    {
-      id:'52453453453',
-      name: 'Christopher',
-      age: 33,
-      email: 'christopher@email.com'
-    },
-    {
-      id:'52453465623',
-      name: 'Julliana',
-      age: 33,
-      email: 'julliana@email.com'
-    },
-    {
-      id:'7785465623',
-      name: 'Daniel',
-      age: 25,
-      email: 'daniel@email.com'
-    }
-  ]
+  let users = []
+
+  async function getUsers(){
+    const usersFromApi = await api.get('/usuarios')
+    users = usersFromApi.data
+    console.log(users)
+  }
+  useEffect(() => {
+    getUsers()
+  },[])
+
   return (
       <div className='container'>
       <form>
@@ -33,11 +27,11 @@ function Home() {
       </form>
       
       {users.map((user) => (
-      <div key={user.id} className='card'>
+      <div key={user.id} className="card">
         <div>
-        <p>Nome: {user.name} </p>
-        <p>Idade: {user.age} </p>
-        <p>E-mail: {user.email} </p>
+        <p>Nome: <span>{user.name}</span></p>
+        <p>Idade: <span>{user.age}</span></p>
+        <p>E-mail: <span>{user.email}</span></p>
         </div>
         <button>
           <img src={Excluir}/>
