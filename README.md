@@ -1,4 +1,4 @@
-# Sistema para cadastro de usuário #
+# Sistema para Cadastro de Usuário #
 ## Este sistema possui front-end, back-end e conexão com o MongoDB ##
 
 Para acesso à página inicial, [clique aqui] ()
