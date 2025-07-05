@@ -12,5 +12,5 @@ Aplicação desenvolvida em **React** e **Javascript**
 * Ao lado das informações do usuário, foi incluído um botão de Delete, onde gava o cadastro no banco de dados pele método Delete
 
 Layout da página Inicial
-![Imagem da tela de cadastro]
+![Imagem da tela de cadastro](../my-cadastro-usuarios-app/inicial - cadastro.png)
 
