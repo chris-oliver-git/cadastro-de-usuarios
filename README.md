@@ -10,9 +10,10 @@ Aplicação desenvolvida em **React** e **Javascript**, por este motivo, não po
 * Back-end permite a exibição dos dados inserios na página inicial do cadastro
 * Ao lado das informações do usuário, foi incluído um botão de Delete, onde gava o cadastro no banco de dados pele método Delete
 
-Layout da página Inicial
-(/my-cadastro-usuarios-app/inicial-cadastro.png)
+### Layout da página Inicial ###
 
-Cadastro dos usuários
-(/my-cadastro-usuarios-app/dados-cadastro.png)
+![](/my-cadastro-usuarios-app/inicial-cadastro.png)
+
+### Cadastro dos usuários ###
+![](/my-cadastro-usuarios-app/dados-cadastro.png)
 
