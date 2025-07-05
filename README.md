@@ -1,9 +1,8 @@
 # Sistema para Cadastro de Usuário #
 ## Este sistema possui front-end, back-end e conexão com o MongoDB ##
 
-Para acesso à página inicial, [clique aqui] ()
 
-Aplicação desenvolvida em **React** e **Javascript**
+Aplicação desenvolvida em **React** e **Javascript**, por este motivo, não postei o link da página inicial pois precisa iniciar o servidor.
 
 ### Conceito ###
 * Página de cadastro de usuários informa os dados pedidos Nome, Idade e E-mail)
@@ -12,5 +11,8 @@ Aplicação desenvolvida em **React** e **Javascript**
 * Ao lado das informações do usuário, foi incluído um botão de Delete, onde gava o cadastro no banco de dados pele método Delete
 
 Layout da página Inicial
-![Imagem da tela de cadastro](/my-cadastro-usuarios-app/inicial-cadastro.png)
+(/my-cadastro-usuarios-app/inicial-cadastro.png)
+
+Cadastro dos usuários
+(/my-cadastro-usuarios-app/dados-cadastro.png)
 
