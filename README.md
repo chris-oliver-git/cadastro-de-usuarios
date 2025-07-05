@@ -1,5 +1,6 @@
 # Sistema para Cadastro de Usuário #
-## Este sistema possui front-end, back-end e conexão com o MongoDB ##
+## Este sistema possui o front-end da palicação ##
+O repositório Projeto-API possui o backend e conexão com o MongoDB
 
 
 Aplicação desenvolvida em **React** e **Javascript**, por este motivo, não postei o link da página inicial pois precisa iniciar o servidor.
